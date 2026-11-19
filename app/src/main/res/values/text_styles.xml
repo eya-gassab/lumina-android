@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Grand titre éditorial : le nom du modèle mental -->
+    <style name="LuminaConcept">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">@color/lumina_espresso</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <!-- Petit libellé de section : "TL;DR", "EN PRATIQUE" -->
+    <style name="LuminaLabel">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/lumina_espresso_soft</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.12</item>
+    </style>
+
+    <!-- Texte courant -->
+    <style name="LuminaBody">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/lumina_espresso</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+</resources>

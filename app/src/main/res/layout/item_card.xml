@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lumina_cream"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="32dp">
+
+    <TextView
+        style="@style/LuminaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_concept" />
+
+    <TextView
+        android:id="@+id/tvConcept"
+        style="@style/LuminaConcept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:autoSizeMaxTextSize="34sp"
+        android:autoSizeMinTextSize="24sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="uniform"
+        android:ellipsize="end"
+        android:maxLines="3"
+        tools:text="Le théorème de l'impossibilité des compromis dans les systèmes complexes et adaptatifs" />
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/lumina_espresso_soft" />
+
+    <TextView
+        style="@style/LuminaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_tldr" />
+
+    <TextView
+        android:id="@+id/tvTldr"
+        style="@style/LuminaBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        tools:text="Dans un système où chaque amélioration locale dégrade un autre indicateur, il est impossible d'optimiser tous les critères à la fois, et il faut donc choisir explicitement ce que l'on sacrifie pour éviter de subir des arbitrages cachés et imprévisibles." />
+
+    <TextView
+        style="@style/LuminaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_practice" />
+
+    <TextView
+        android:id="@+id/tvPractice"
+        style="@style/LuminaBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="6"
+        tools:text="Avant de lancer un projet, écris sur une feuille les trois critères qui comptent vraiment (coût, délai, qualité), classe-les du plus important au moins important, puis décide à l'avance lequel tu accepteras de dégrader si un imprévu arrive, afin de ne pas trancher dans la panique au dernier moment." />
+
+</LinearLayout>
